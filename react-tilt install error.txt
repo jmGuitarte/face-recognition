@@ -1,0 +1,89 @@
+https://stackoverflow.com/questions/17937960/how-to-list-npm-user-installed-packages
+https://stackoverflow.com/questions/56907286/npm-warn-typescript-eslint-eslint-plugin1-6-0-requires-a-peer-of-typescript
+
+jm Guitarte@DESKTOP-U9DAL22 MINGW64 ~/documents/udemy/projects/facerecognitionbrain (master)
+$ npm install --save react-tilt
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.2 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.2 (node_modules\react-scripts\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.12 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.12: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ react-tilt@0.1.4
+added 1 package from 1 contributor and audited 931706 packages in 55.145s
+
+58 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+jm Guitarte@DESKTOP-U9DAL22 MINGW64 ~/documents/udemy/projects/facerecognitionbrain (master)
+$ npm list -g --depth=0
+C:\Users\jm Guitarte\AppData\Roaming\npm
++-- browserify@16.5.0
++-- create-react-app@3.4.0
+`-- live-server@1.2.1
+
+npm ERR! error in C:\Users\jm Guitarte\AppData\Roaming\npm\node_modules\live-server\node_modules\fsevents: ENOENT: no such file or directory, open 'C:\Users\jm Guitarte\AppData\Roaming\npm\node_modules\live-server\node_modules\fsevents\package.json'
+npm ERR! error in C:\Users\jm Guitarte\AppData\Roaming\npm\node_modules\live-server\node_modules\fsevents\node_modules\rc: ENOENT: no such file or directory, open 'C:\Users\jm Guitarte\AppData\Roaming\npm\node_modules\live-server\node_modules\fsevents\node_modules\rc\package.json'
+
+jm Guitarte@DESKTOP-U9DAL22 MINGW64 ~/documents/udemy/projects/facerecognitionbrain (master)
+$ npm list --depth=0
+facerecognitionbrain@0.1.0 C:\Users\jm Guitarte\documents\udemy\projects\facerecognitionbrain
++-- @testing-library/jest-dom@4.2.4
++-- @testing-library/react@9.5.0
++-- @testing-library/user-event@7.2.1
++-- react@16.13.1
++-- react-dom@16.13.1
++-- react-scripts@3.4.1
++-- react-tilt@0.1.4
++-- tachyons@4.11.1
++-- tilt.js@1.2.1
+`-- typescript@3.8.3
+
+
+jm Guitarte@DESKTOP-U9DAL22 MINGW64 ~/documents/udemy/projects/facerecognitionbrain (master)
+$ npm start
+
+> facerecognitionbrain@0.1.0 start C:\Users\jm Guitarte\documents\udemy\projects\facerecognitionbrain
+> react-scripts start
+
+i ｢wds｣: Project is running at http://192.168.1.2/
+i ｢wds｣: webpack output is served from
+i ｢wds｣: Content not from webpack is served from C:\Users\jm Guitarte\documents\udemy\projects\facerecognitionbrain\public
+i ｢wds｣: 404s will fallback to /
+Starting the development server...
+
+Compiled with warnings.
+
+./src/components/logo/Logo.js
+  Line 2:8:  'Tilt' is defined but never used  no-unused-vars
+
+./src/App.js
+  Line 3:8:  'Logo' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 3:8:  'Logo' is defined but never used  no-unused-vars
+
+./src/components/logo/Logo.js
+  Line 8:6:  Emojis should be wrapped in <span>, have role="img", and have an accessible description with aria-label or aria-labelledby  jsx-a11y/accessible-emoji
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/logo/Logo.js
+  Line 8:6:  Emojis should be wrapped in <span>, have role="img", and have an accessible description with aria-label or aria-labelledby  jsx-a11y/accessible-emoji
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.

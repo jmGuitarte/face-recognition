@@ -1,0 +1,9 @@
+https://cssgradient.io/
+https://www.npmjs.com/package/react-tilt
+https://icons8.com/icon/set/brain/win8
+https://leaverou.github.io/css3patterns/#honeycomb
+https://vincentgarreau.com/particles.js/
+https://www.npmjs.com/package/react-particles-js
+https://www.clarifai.com/models/face-detection-image-recognition-model-a403429f2ddf4b49b307e318f00e528b-detection#documentation
+https://portal.clarifai.com/apps
+https://github.com/Clarifai/clarifai-javascript/blob/master/src/index.js
